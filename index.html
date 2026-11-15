@@ -8,6 +8,9 @@
 
     <title>Zero Error Technologies & Solutions | ZETS</title>
 
+    <!-- ZETS Favicon -->
+    <link rel="icon" type="image/png" href="zets-favicon.png">
+
     <style>
         * {
             margin: 0;
@@ -24,7 +27,7 @@
 
         header {
             background: #ffffff;
-            padding: 18px 7%;
+            padding: 12px 7%;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -33,14 +36,10 @@
             box-shadow: 0 2px 12px rgba(0,0,0,0.06);
         }
 
-        .logo {
-            color: #064199;
-            font-size: 23px;
-            font-weight: bold;
-        }
-
-        .logo span {
-            color: #036ce5;
+        .logo img {
+            display: block;
+            width: 150px;
+            height: auto;
         }
 
         nav a {
@@ -85,19 +84,19 @@
         }
 
         .app-download-link {
-    display: inline-block;
-    color: #ffffff;
-    background-color: #198754;
-    padding: 9px 16px;
-    border-radius: 6px;
-    text-decoration: none;
-    font-weight: 600;
-    margin-top: 10px;
-}
+            display: inline-block;
+            color: #ffffff;
+            background-color: #198754;
+            padding: 9px 16px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 10px;
+        }
 
-.app-download-link:hover {
-    background-color: #146c43;
-}
+        .app-download-link:hover {
+            background-color: #146c43;
+        }
 
         section {
             padding: 65px 8%;
@@ -195,6 +194,10 @@
                 text-align: center;
             }
 
+            .logo img {
+                width: 135px;
+            }
+
             nav a {
                 margin: 0 7px;
                 font-size: 13px;
@@ -218,7 +221,9 @@
 <body>
 
 <header>
-    <div class="logo">Z<span>ETS</span></div>
+    <a class="logo" href="#home" aria-label="ZETS Home">
+        <img src="zets-logo.png" alt="ZETS - Zero Error Technologies & Solutions">
+    </a>
 
     <nav>
         <a href="#home">Home</a>
@@ -268,71 +273,67 @@
 
         <div class="app-grid">
 
-           
+            <div class="app-card">
+                <h3>My Mileage Meter</h3>
+                <p>
+                    An Android application for tracking vehicle
+                    mileage, fuel records and vehicle-related
+                    information.
+                </p>
 
-<div class="app-card">
-    <h3>My Mileage Meter</h3>
-    <p>
-        An Android application for tracking vehicle
-        mileage, fuel records and vehicle-related
-        information.
-    </p>
+                <a class="app-download-link"
+                   href="https://github.com/zetecsol/zets-app-downloads/releases/download/my-mileage-meter-v1.0/My.Mileage.Meter.1.0.apk">
+                    Download APK (v1.0)
+                </a>
 
-    <a class="app-download-link"
-       href="https://github.com/zetecsol/zets-app-downloads/releases/download/my-mileage-meter-v1.0/My.Mileage.Meter.1.0.apk">
-        Download APK (v1.0)
-    </a>
+                <a class="app-policy-link"
+                   href="https://zetecsol.github.io/my-mileage-meter-privacy/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Privacy Policy
+                </a>
+            </div>
 
-    <a class="app-policy-link"
-       href="https://zetecsol.github.io/my-mileage-meter-privacy/"
-       target="_blank"
-       rel="noopener noreferrer">
-        Privacy Policy
-    </a>
-</div>
+            <div class="app-card">
+                <h3>MyCalcy</h3>
+                <p>
+                    An Android utility application developed
+                    under the ZETS brand.
+                </p>
 
-           
-<div class="app-card">
-    <h3>MyCalcy</h3>
-    <p>
-        An Android utility application developed
-        under the ZETS brand.
-    </p>
+                <a class="app-download-link"
+                   href="https://github.com/zetecsol/zets-app-downloads/releases/download/mycalcy-v2.0.2/My.Calcy.2.0.2.apk">
+                    Download APK (v2.0.2)
+                </a>
 
-    <a class="app-download-link"
-       href="https://github.com/zetecsol/zets-app-downloads/releases/download/mycalcy-v2.0.2/My.Calcy.2.0.2.apk">
-        Download APK (v2.0.2)
-    </a>
+                <a class="app-policy-link"
+                   href="https://docs.google.com/document/d/1XC3VQTMV5WLBR_d_z9GxGGPl6vBNuoYDNV_LG48VGSA/edit?usp=sharing"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Privacy Policy
+                </a>
+            </div>
 
-    <a class="app-policy-link"
-       href="https://docs.google.com/document/d/1XC3VQTMV5WLBR_d_z9GxGGPl6vBNuoYDNV_LG48VGSA/edit?usp=sharing"
-       target="_blank"
-       rel="noopener noreferrer">
-        Privacy Policy
-    </a>
-</div>
+            <div class="app-card">
+                <h3>MyCallRegister</h3>
+                <p>
+                    A work-oriented application for recording
+                    machine complaints, service visits and
+                    related work reports.
+                </p>
 
-            
-<div class="app-card">
-    <h3>MyCallRegister</h3>
-    <p>
-        A work-oriented application for recording
-        machine complaints, service visits and
-        related work reports.
-    </p>
+                <a class="app-download-link"
+                   href="https://github.com/zetecsol/zets-app-downloads/releases/download/mycallregister-v2.4.2/My.Call.Register.2.4.2.apk">
+                    Download APK (v2.4.2)
+                </a>
 
-    <a class="app-download-link"
-       href="https://github.com/zetecsol/zets-app-downloads/releases/download/mycallregister-v2.4.2/My.Call.Register.2.4.2.apk">
-        Download APK (v2.4.2)
-    </a>
-
-    <a class="app-policy-link"
-       href="https://docs.google.com/document/d/1-pkWbrlmX6589evJv08RfaZ-3jSVgX0YIT1JyIN_S3k/edit?usp=sharing"
-       target="_blank"
-       rel="noopener noreferrer">
-        Privacy Policy
-    </a>
-</div>
+                <a class="app-policy-link"
+                   href="https://docs.google.com/document/d/1-pkWbrlmX6589evJv08RfaZ-3jSVgX0YIT1JyIN_S3k/edit?usp=sharing"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Privacy Policy
+                </a>
+            </div>
 
         </div>
     </section>
@@ -356,9 +357,11 @@
 </main>
 
 <footer>
-<p style="font-weight: 600; margin-bottom: 5px;">
-    Developed by Ravi Thakkar
-</p>    <p>
+    <p style="font-weight: 600; margin-bottom: 5px;">
+        Developed by Ravi Thakkar
+    </p>
+
+    <p>
         &copy; 2026 Zero Error Technologies & Solutions (ZETS).
         All rights reserved.
     </p>
