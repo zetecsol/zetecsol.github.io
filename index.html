@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Zero Error Technologies & Solutions (ZETS) - Independent Android app development and technology solutions.">
+
+    <title>Zero Error Technologies & Solutions | ZETS</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f5f8fc;
+            color: #263445;
+            line-height: 1.7;
+        }
+
+        header {
+            background: #ffffff;
+            padding: 18px 7%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+        }
+
+        .logo {
+            color: #064199;
+            font-size: 23px;
+            font-weight: bold;
+        }
+
+        .logo span {
+            color: #036ce5;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #263445;
+            margin-left: 20px;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        nav a:hover {
+            color: #036ce5;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #064199, #0879e8);
+            color: white;
+            text-align: center;
+            padding: 90px 20px;
+        }
+
+        .hero h1 {
+            font-size: 42px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            max-width: 700px;
+            margin: 0 auto 25px;
+            font-size: 18px;
+            color: #e7f1ff;
+        }
+
+        .hero a {
+            display: inline-block;
+            background: white;
+            color: #064199;
+            padding: 12px 26px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 65px 8%;
+        }
+
+        .section-title {
+            text-align: center;
+            color: #064199;
+            font-size: 30px;
+            margin-bottom: 15px;
+        }
+
+        .section-intro {
+            text-align: center;
+            max-width: 750px;
+            margin: 0 auto 35px;
+            color: #637184;
+        }
+
+        .about {
+            max-width: 850px;
+            margin: auto;
+            text-align: center;
+        }
+
+        .apps {
+            background: #ffffff;
+        }
+
+        .app-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 22px;
+            max-width: 1050px;
+            margin: auto;
+        }
+
+        .app-card {
+            background: #f5f8fc;
+            padding: 28px 24px;
+            border-radius: 10px;
+            border: 1px solid #e3eaf3;
+        }
+
+        .app-card h3 {
+            color: #064199;
+            margin-bottom: 12px;
+        }
+
+        .app-card p {
+            color: #637184;
+            font-size: 15px;
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        .contact a {
+            color: #036ce5;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        footer {
+            background: #102b4e;
+            color: #dce8f7;
+            text-align: center;
+            padding: 25px 15px;
+            font-size: 14px;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 8px;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                justify-content: center;
+                text-align: center;
+            }
+
+            nav a {
+                margin: 0 7px;
+                font-size: 13px;
+            }
+
+            .hero h1 {
+                font-size: 31px;
+            }
+
+            .hero p {
+                font-size: 16px;
+            }
+
+            section {
+                padding: 48px 6%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">Z<span>ETS</span></div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#apps">Apps</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<main>
+
+    <section class="hero" id="home">
+        <h1>Zero Error Technologies & Solutions</h1>
+
+        <p>
+            Building practical digital solutions and Android
+            applications designed to make everyday tasks simpler.
+        </p>
+
+        <a href="#apps">Explore Our Applications</a>
+    </section>
+
+    <section id="about">
+        <div class="about">
+            <h2 class="section-title">About ZETS</h2>
+
+            <p>
+                Zero Error Technologies & Solutions (ZETS) is an
+                independent developer brand operated by an
+                individual developer in India.
+            </p>
+
+            <p style="margin-top: 15px;">
+                Our focus is on developing practical software
+                applications that address real-world needs through
+                simple, useful and accessible technology.
+            </p>
+        </div>
+    </section>
+
+    <section class="apps" id="apps">
+        <h2 class="section-title">Our Applications</h2>
+
+        <p class="section-intro">
+            Explore applications developed under the ZETS brand.
+        </p>
+
+        <div class="app-grid">
+
+            <div class="app-card">
+                <h3>My Mileage Meter</h3>
+                <p>
+                    An Android application for tracking vehicle
+                    mileage, fuel records and vehicle-related
+                    information.
+                </p>
+            </div>
+
+            <div class="app-card">
+                <h3>MyCalcy</h3>
+                <p>
+                    An Android utility application developed
+                    under the ZETS brand.
+                </p>
+            </div>
+
+            <div class="app-card">
+                <h3>MyCallRegister</h3>
+                <p>
+                    A work-oriented application for recording
+                    machine complaints, service visits and
+                    related work reports.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="section-title">Contact Us</h2>
+
+        <p class="section-intro">
+            For application-related questions, feedback or
+            other enquiries, please contact us by email.
+        </p>
+
+        <p>
+            Email:
+            <a href="mailto:zerroerrortechnologiessolution@gmail.com">
+                zerroerrortechnologiessolution@gmail.com
+            </a>
+        </p>
+    </section>
+
+</main>
+
+<footer>
+    <p>
+        &copy; 2026 Zero Error Technologies & Solutions (ZETS).
+        All rights reserved.
+    </p>
+
+    <p style="margin-top: 10px;">
+        <a href="privacy-policy.html">Privacy Policy</a>
+        |
+        <a href="terms.html">Terms & Conditions</a>
+    </p>
+</footer>
+
+</body>
+</html>
