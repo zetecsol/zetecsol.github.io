@@ -1,0 +1,15 @@
+
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.zets.zetask",
+      "sha256_cert_fingerprints": [
+        "CE:3B:1B:0B:58:3D:92:1D:A3:6B:1A:69:07:74:54:9D:50:04:4D:07:84:E0:3F:6C:36:E0:F2:32:B3:1C:E7:33"
+      ]
+    }
+  }
+]
